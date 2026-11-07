@@ -11,7 +11,7 @@ const LS_KEY = 'eldaheeh_db_v1';
   لا تضع أبدًا مفتاح Secret أو service_role في ملفات الواجهة.
 */
 const SUPABASE_URL = 'https://yqkajdnxylujrtkeshsq.supabase.co';
-const SUPABASE_PUBLISHABLE_KEY = 'sb_publishable_6gkAJgmAo6MKt2kn1_Oamg_sAwR-1vW';
+const SUPABASE_PUBLISHABLE_KEY = '';
 const supabaseReady = !!(window.supabase && SUPABASE_PUBLISHABLE_KEY &&
   !SUPABASE_PUBLISHABLE_KEY.includes('PASTE_YOUR'));
 const supabaseClient = supabaseReady
